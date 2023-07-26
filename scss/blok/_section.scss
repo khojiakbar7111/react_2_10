@@ -1,0 +1,133 @@
+.main_section{
+   background-color: #004047;
+   background-repeat: no-repeat;
+   background-image: url(../../images/sectin.svg);
+   background-position: right bottom;
+
+}
+ .section_box{
+ 
+    width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding-bottom: 116px;
+
+ }
+.section_title{
+    color: #FFF;
+    max-width: 920px;
+    width: 100%;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+margin-left: 100px;
+padding-top: 140px;
+}
+.section_contin{
+    width: 350px;
+    max-height: 253px;
+    background: #012F34;
+    border-radius: 5px;
+  margin-top: 64px;
+}
+.section_contin_rasm{
+    max-width: 92px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 32px;
+   
+}
+.section_contin_p{
+    color: #79C8C7;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px; /* 155.556% */
+}
+.section_contin_p2{
+    color: #FFF;
+text-align: center;
+font-size: 15px;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+padding-bottom: 34px;
+}
+.section_contin1{
+    width: 350px;
+    max-height: 253px;
+    background: #012F34;
+    border-radius: 5px;
+    margin-top: 64px;
+
+}
+.section_contin1_title{
+    color: #79C8C7;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+padding-bottom: 8px;
+line-height: 28px; /* 155.556% */
+padding-top: 35px;
+}
+.section_contin1_p{
+     display: block;
+    margin: auto;
+    max-width: 254px;
+    width: 100%;
+    color: #FFF;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px; /* 166.667% */
+
+}
+.section_contin1_icon{
+    max-width: 60px;
+    display: block;
+   margin: auto;
+   padding-top: 24px;
+}
+@media screen and (max-width:1083px) {
+    .section_box{
+        text-align: center;
+    }
+    .section_title{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 10px;
+    padding-top: 140px;
+    }
+    .section_contin{
+        width: 300px;
+        max-height: 203px;
+        background: #012F34;
+        border-radius: 5px;
+      margin-top: 54px;
+    }
+    .section_contin1{
+        width: 300px;
+        max-height: 203px;
+        background: #012F34;
+        border-radius: 5px;
+        margin-top: 54px;
+    
+    }
+    .section_contin_rasm{
+        max-width: 80px;
+    }
+}
+@media screen and (max-width:640px) {
+    .section_contin{
+        margin: auto;
+        margin-top: 28px;
+
+    }
+  .section_contin1{
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 116px; 
+  }
+}
